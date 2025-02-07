@@ -97,6 +97,10 @@ const WorkOrders = () => {
           <label>Select Client</label>
           <select className="select">
             <option value="all">All</option>
+            <option value="all">Client 1</option>
+            <option value="all">Client 2</option>
+            <option value="all">Client 3</option>
+
           </select>
         </div>
 

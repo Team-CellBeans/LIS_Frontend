@@ -34,7 +34,7 @@
     padding: 10px 20px;
     border-radius: 8px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
   }
   
   /* Form */
@@ -53,12 +53,13 @@
   .form-group {
     display: flex;
     flex-direction: column;
+    padding: 1px;
   }
   
   .form-group label {
     margin-bottom: 5px;
-    font-size: 14px;
-    color: gray;
+    font-size: 13px;
+    color: black;
   }
   
   .input,
@@ -67,7 +68,7 @@
     padding: 10px;
     border: 1px solid #ced4da;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 12px;
     background-color: #ffffff;
   }
   
@@ -79,7 +80,7 @@
     color: #fff;
     border: none;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: bold;
     cursor: pointer;
     text-align: center;
@@ -88,24 +89,52 @@
   .button:hover {
     background-color: #138496;
   }
-  .table th {
+
+
+  .table thead th {
     background-color: rgb(165, 164, 164); /* Gray color for the table header */
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 10px;
     border: 1px solid #ccc;
     font-size: 12px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+  }
+  
+  .table tbody tr:first-child {
+    position: sticky;
+    top: 35px; /* Adjust this value based on your header height */
+    background-color: #ffffff; /* Keeps the first row visible */
+    z-index: 2;
+  }
+
+
+  .table th {
+    background-color: rgb(165, 164, 164); /* Gray color for the table header */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
   }
 
   .table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 0px;
   }
 
   .table-container {
     margin-top: 5px;
-    overflow-x: auto;
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 300px; /* Adjust the height as needed */
+    border: 1px solid #ccc;
+    border-radius: 8px;
   }
 
   .table td {
@@ -115,6 +144,12 @@
   }
   .table tr:nth-child(even) {
   background-color: #f9f9f9;
+}
+.select{
+  padding: 10px;
+}
+.input{
+  padding: 10px;
 }
 
   
