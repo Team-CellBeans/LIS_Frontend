@@ -1,0 +1,127 @@
+/* External CSS for TAT Report */
+
+/* Full-screen gray background */
+body {
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* General container styling */
+  .container {
+    max-width: 1300px;
+    height: auto;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    /* White container */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    gap: 15px;
+  }
+  
+  /* Form wrapper styling */
+  /* .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: white;
+  } */
+  
+  /* Title styling */
+  .title {
+    font-size: 1rem;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Form grid layout */
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  /* Form group styling */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+
+  /* Label styling */
+  .form-label {
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: 500;
+    margin-top: -18px;
+  }
+
+
+  /* Input and select styling */
+  .form-input {
+    padding: 0.6rem;
+    font-size: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  .form-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Button wrapper styling */
+  .button-wrapper {
+    display: flex;
+    justify-content: left;
+    margin-top: 1.3rem;
+  }
+  
+  /* Submit button styling */
+  .submit-button {
+    padding: 0.4rem 2rem;
+    font-size: 1rem;
+    font-weight: 200;
+    color: #fff;
+    background-color: rgba(52, 179, 241, 1);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+
+  /* Sample Status Section */
+.sample-status {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem; /* Increased gap between radio buttons */
+    margin-top: 1rem;
+  }
+  
+  .sample-status label {
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .sample-status input {
+    margin-right: 0.5rem;
+  }
+  
+  
+  /* .submit-button:hover {
+    background-color: #0056b3;
+    align-items: left;
+  } */
+  

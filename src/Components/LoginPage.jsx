@@ -298,7 +298,7 @@ const LoginPage = () => {
       marginBottom: "0.5rem",
       fontSize: "14px",
       color: "black",
-      fontSize: "11px",
+      
     },
     input: {
       width: "100%",
