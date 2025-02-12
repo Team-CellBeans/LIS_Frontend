@@ -1,0 +1,152 @@
+
+/* Main Container */
+.main-container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f3f4f6;
+    min-height: 100vh;
+  }
+  
+  /* Form Container */
+  .form-container {
+    max-width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title */
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .status-dot {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Form Grid */
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .input-field {
+    appearance: none;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    font-size: 13px;
+  }
+  
+  /* Buttons */
+  .button-group {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    font-weight: 600;
+  }
+  
+  .btn {
+    padding: 8px 19px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-list { background-color: rgba(52, 179, 241, 1); font-size: 13px; font-weight: 500; }
+  .btn-send { background-color: rgba(52, 179, 241, 1); font-size: 13px; font-weight: 500;}
+  .btn-upload { background-color: rgba(52, 179, 241, 1); font-size: 13px; font-weight: 500;}
+  
+  /* Table Container */
+  .table-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+  }
+
+  .print-button {
+    font-size: 14px;
+    appearance: none;
+    border: none;
+    background-color: white;
+    color: blue;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    cursor: pointer;
+}
+  
+  /* Status Summary */
+  .status-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .status-box {
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .red { background-color: red; }
+  .green { background-color: rgba(20, 175, 20, 0.8); }
+  .orange { background-color: rgba(241, 140, 52, 0.8); }
+  .blue { background-color: rgba(52, 99, 241, 0.8); }
+  .pink { background-color: rgba(241, 52, 131, 0.8); }
+  .purple { background-color: rgba(178, 52, 241, 0.8); }
+  .yellow { background-color: rgba(212, 185, 12, 0.8); }
+  .cyan { background-color: rgba(52, 179, 241, 0.8); }
+  
+  /* Table */
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .data-table th {
+    background-color: #f1f5f9;
+    width: 1px
+  }
+  
+  .blue-text { color: blue; cursor: pointer; }
+  .highlight-red { background-color: #ffcccc; }
+  .status-green { color: green; }
+  .status-red { color: blue; }
+
+  /* Responsive Design for Mobile */
+ @media (max-width: 768px) {
+    .sample-worksheet-container .form-grid {
+      grid-template-columns: 1fr; /* Single column on small screens */
+    }
+  }
+  
+  
+  
