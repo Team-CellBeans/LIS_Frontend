@@ -1,0 +1,327 @@
+/* thead{
+    
+    color:black;
+  }
+  table .tr {
+    white-space:nowrap;
+    
+  }
+  thead tr th {
+    padding:20px*10px;
+  }
+  .button-custom {
+    background-color: #28c3d4; 
+    border-color: #28c3d4 ;
+    color: white;
+  }
+  
+  .button-custom:hover {
+    background-color: #1fa1b5 ; 
+    border-color: #1fa1b5;
+  }
+
+
+ 
+.table-header {
+  
+  color: black;
+  border: 2px solid white;
+}
+
+
+.table-row {
+  
+  color: black;
+}
+
+     */
+
+     /* .container {
+      margin-top: 1rem;
+    }
+    
+    .boxWrapper {
+      padding: 1rem;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      background-color: white;
+      border-radius: 8px;
+    }
+    
+    .title {
+      background-color: #1eedd1;
+      color: black;
+      padding: 10px 15px;
+      border-radius: 8px;
+      font-family: 'Pacifico', cursive;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      letter-spacing: 1px;
+      text-align: center;
+    }
+    
+    .tableHeader {
+      background-color: #e5e7e9;
+      color: black;
+      border: 2px solid white;
+    }
+     */
+
+     /* .container {
+      margin-top: 20px;
+    }
+    
+    .boxWrapper {
+      padding: 16px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      background-color: white;
+      border-radius: 8px;
+    }
+    
+    .title {
+      background-color: #1eedd1;
+      color: black;
+      padding: 10px 15px;
+      border-radius: 8px;
+      font-family: "Pacifico", Arial, Helvetica, sans-serif;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      letter-spacing: 0.5px;
+      display: inline-block;
+    }
+    .tableHeader {
+      
+      background-color: '#e5e7e9';
+      color: 'black';
+       border: '2px solid white';
+    } */
+
+    /* .container {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: hwb(210 97% 2%);
+  }
+  
+  .header {
+      background-color: #28c3d4;
+      color: #28c3d4;
+      padding: 10px 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: right;
+  }
+  
+  .form-container {
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      gap: 15px;
+  }
+  
+  .field-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+  }
+  
+  .field {
+      flex: 1 1 calc(25% - 20px);
+      flex-direction: column;
+      flex: 1 1 calc(25% - 20px); 
+  }
+  
+  .label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #495057;
+}
+
+.input,
+select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #28c3d4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+} */
+
+
+/* Container styling */
+/* .container {
+  margin-top: 16px;
+} */
+
+.container.mt-4 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background-color: #b6b6b6; /* Fixed invalid color */
+   margin-left: 16rem; /* Fixed invalid calculation */
+   margin-right: 16rem; /* Fixed invalid calculation */
+   margin-top: 47px;
+   margin-bottom: 24px;
+}
+
+
+.box-container {
+  
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 1200px;
+}
+/* Heading styling */
+.heading {
+  background-color: #1eedd1;
+  color: black;
+  padding: 1px;
+  border-radius: 4px;
+  font-family: 'Arial';
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: 0.5px;
+}
+/* Form field spacing */
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  border:1px solid;
+  margin-bottom: 24px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+  border: 1px;
+
+}
+.table-header {
+  background-color: #e5e7e9 !important; 
+  color: black !important;
+  border: 2px solid white !important;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Optional: Ensure table borders are applied */
+.custom-table {
+  border-collapse: collapse !important;
+}
+
+.custom-table th {
+  border: 2px solid white !important;
+}
+
+
+
+
+/* <div className="container mt-4">
+    <div className="align-items-end">
+    <h2 style={{ 
+        backgroundColor: '#1eedd1', 
+        color: 'black', 
+        padding: '6px 12px', 
+        borderRadius: '8px', 
+        fontFamily: "'Pacifico', cursive", 
+        textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)', 
+        letterSpacing: '1px' 
+    }}>
+         Edit Test Registration
+    </h2>
+</div>
+<Form className="mb-4">
+      <div className="flex flex-wrap gap-10 mb-6">
+        <Col md={4}>
+            <Form.Label>Select Client</Form.Label>
+            <Form.Control type="text" />
+          </Col>
+        </div>
+
+        <Row className="align-items-end">
+          <Col md={3}>
+            <Form.Label>From Date</Form.Label>
+            <Form.Control type="date" />
+          </Col>
+          <Col md={3}>
+            <Form.Label>To Date</Form.Label>
+            <Form.Control type="date" />
+          </Col>
+          <Col md={3}>
+          <label class="form-label">Financial Year</label>
+                    <select class="form-select">
+                        <option>01/04/2024 TO 31/03/2025</option>
+                    </select>
+          </Col>
+          <Col md={3}>
+            <Form.Label>Reg.Number</Form.Label>
+            <Form.Control type="text" />
+          </Col>
+          <Col md={3}>
+            <Form.Label>Patient Name</Form.Label>
+            <Form.Control type="text" placeholder="Enter Name" />
+          </Col>
+          <Col md={3}>
+            <Form.Label> Total Patient </Form.Label>
+            <Form.Control type="text" />
+          </Col>
+          <Col md={3}>
+            <Form.Label> Barcode </Form.Label>
+            <Form.Control type="text"/>
+          </Col>
+          <Col md={3}>
+            <Button variant="primary" className="mt-3">Show</Button>
+          </Col>
+        </Row>
+        </Form>
+       <Table responsive striped bordered hover>
+       <thead>
+    <tr>
+        <th style={{ backgroundColor: '#e5e7e9', color: 'black', border: '2px solid white' }}>Reg No.</th>
+        <th style={{ backgroundColor: '#e5e7e9', color: 'black', border: '2px solid white' }}>Name</th>
+        <th style={{ backgroundColor: '#e5e7e9', color: 'black', border: '2px solid white' }}>Center Name</th>
+        <th style={{ backgroundColor: '#e5e7e9', color: 'black', border: '2px solid white' }}>Test Name</th>
+        <th style={{ backgroundColor: '#e5e7e9', color: 'black', border: '2px solid white' }}>Test Charges</th>
+        <th style={{ backgroundColor: '#e5e7e9', color: 'black', border: '2px solid white' }}>Edit</th>
+    </tr>
+</thead>
+<tbody>
+                <tr>
+                    <td>250232300024</td>
+                    <td>Mr DADU JADHAV</td>
+                    <td>DHANASHREE HOSPITAL DIAGNOSTICS</td>
+                    <td>COMPLETE BLOOD COUNT, BLOOD GAS ANALYSIS</td>
+                    <td>500</td>
+                    <td><a href="#" class="text-primary">Edit Test</a></td>
+                </tr>
+                <tr>
+                    <td>250232300023</td>
+                    <td>Mrs DEVAKI KADEKAR</td>
+                    <td>DHANASHREE HOSPITAL DIAGNOSTICS</td>
+                    <td>BLOOD GROUP</td>
+                    <td>150</td>
+                    <td><a href="#" class="text-primary">Edit Test</a></td>
+                </tr>
+            </tbody>
+       </Table>
+    </div> 
+  );
+}; */
